@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test1">
+       <classes>
+      <class name="LearnMaven.LearnMTS.RestApiTest"/>
+      <class name="LearnMaven.LearnMTS.SelTest">
+      <methods>
+      <exclude name="elementsUI" />
+      <!--  <exclude name="postJira" /> postJira isn't a method of SelTest class here so not excluded -->  
+      </methods>
+      </class>
+    <!-- calling it smoke because lesser classes here(less TCs) and in regression for testng2 more classes, just for idea  -->  
+    </classes>
+  </test> <!-- Test -->
+  
+   <test thread-count="5" name="Test2">
+    <classes>
+      <class name="LearnMaven.LearnMTS.ApiTest">
+      
+      <methods>
+      <include name="AndroidApp" />  <!-- For Smoke testing when we need to execute selective testcases -->
+      </methods>
+      
+      </class>
+     
+    </classes>
+  </test> 
+  
+</suite> <!-- Suite -->
