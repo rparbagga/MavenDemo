@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<groups>
+	<run>
+	<include name="SmokeTest"/>
+	<include name="LearnMaven.LearnMTS.SelTest"/> <!--does not work  -->
+	</run>
+	</groups>
+
+  <test  name="Grouping_Test">
+    <classes>
+      <class name="LearnMaven.LearnMTS.AnnotationsTest"/>
+      <class name="LearnMaven.LearnMTS.RestApiTest"/>
+      <class name="LearnMaven.LearnMTS.SelTest"/>
+      <class name="LearnMaven.LearnMTS.ApiTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test  name="Test">
+    <classes>
+         <class name="LearnMaven.LearnMTS.SelTest"/>
+          </classes>
+  </test> 
+</suite> <!-- Suite -->
