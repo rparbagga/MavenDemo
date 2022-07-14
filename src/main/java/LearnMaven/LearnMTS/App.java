@@ -14,5 +14,6 @@ public class App
             System.out.println( "Hello GitHUb2" );
             
             System.out.println( "Develop branch" );
+            System.out.println( "Develop master" );
     }
 }
