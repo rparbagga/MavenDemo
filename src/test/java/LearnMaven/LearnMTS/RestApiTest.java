@@ -22,7 +22,8 @@ public class RestApiTest {
 		System.out.println("postInsta");
 	}
 	
-	@Test(groups="SmokeTest")
+	@Test
+	//@Test(groups="SmokeTest")
 	public void postMeta() {
 		System.out.println("postMeta");
 	}

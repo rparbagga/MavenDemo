@@ -14,7 +14,9 @@ public class SelTest {
 		System.out.println("browserAutomation");
 	}
 
-	@Test(groups="SmokeTest")
+	
+	@Test
+	//@Test(groups="SmokeTest")
 	public void elementsUI() {
 		System.out.println("elementsUI");		
 	}
@@ -24,12 +26,13 @@ public class SelTest {
 		System.out.println("depending on timed out method");		
 	}
 	
-	@Test(timeOut =4000)
+	@Test
+	//@Test(timeOut =4000)
 	public void tm2() {
 		System.out.println("timed out method");		
 	}
 	
-	@Parameters({"Url","KeyId"})
+	//@Parameters({"Url","KeyId"})
 	@Test
 	public void pmt(String urlname, String key){
 		System.out.println(urlname);
