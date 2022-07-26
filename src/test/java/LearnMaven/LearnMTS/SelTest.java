@@ -32,10 +32,10 @@ public class SelTest {
 		System.out.println("timed out method");		
 	}
 	
-	//@Parameters({"Url","KeyId"})
+	/*@Parameters({"Url","KeyId"})
 	@Test
 	public void pmt(String urlname, String key){
 		System.out.println(urlname);
 		System.out.println(key);
-	}
+	} */
 }
