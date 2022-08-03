@@ -2,105 +2,105 @@
 <testng-results ignored="1" total="13" passed="12" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-26T17:22:00 IST" name="Command line suite" finished-at="2022-07-26T17:22:00 IST" duration-ms="49">
+  <suite started-at="2022-08-03T17:31:11 IST" name="Command line suite" finished-at="2022-08-03T17:31:11 IST" duration-ms="29">
     <groups>
       <group name="SmokeTest">
         <method signature="ApiTest.AndroidApp()[pri:0, instance:LearnMaven.LearnMTS.ApiTest@38d8f54a]" name="AndroidApp" class="LearnMaven.LearnMTS.ApiTest"/>
       </group> <!-- SmokeTest -->
     </groups>
-    <test started-at="2022-07-26T17:22:00 IST" name="Command line test" finished-at="2022-07-26T17:22:00 IST" duration-ms="49">
+    <test started-at="2022-08-03T17:31:11 IST" name="Command line test" finished-at="2022-08-03T17:31:11 IST" duration-ms="29">
       <class name="LearnMaven.LearnMTS.SelTest">
-        <test-method signature="browserAutomation()[pri:0, instance:LearnMaven.LearnMTS.SelTest@2a3b5b47]" started-at="2022-07-26T17:22:00 IST" name="browserAutomation" finished-at="2022-07-26T17:22:00 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserAutomation -->
-        <test-method signature="elementsUI()[pri:0, instance:LearnMaven.LearnMTS.SelTest@2a3b5b47]" started-at="2022-07-26T17:22:00 IST" name="elementsUI" finished-at="2022-07-26T17:22:00 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- elementsUI -->
-        <test-method signature="tm2()[pri:0, instance:LearnMaven.LearnMTS.SelTest@2a3b5b47]" started-at="2022-07-26T17:22:00 IST" name="tm2" finished-at="2022-07-26T17:22:00 IST" duration-ms="0" status="PASS">
+        <test-method signature="tm2()[pri:0, instance:LearnMaven.LearnMTS.SelTest@2a3b5b47]" started-at="2022-08-03T17:31:11 IST" name="tm2" finished-at="2022-08-03T17:31:11 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tm2 -->
-        <test-method signature="tm1()[pri:0, instance:LearnMaven.LearnMTS.SelTest@2a3b5b47]" started-at="2022-07-26T17:22:00 IST" name="tm1" finished-at="2022-07-26T17:22:00 IST" depends-on-methods="LearnMaven.LearnMTS.SelTest.tm2" duration-ms="1" status="PASS">
+        <test-method signature="elementsUI()[pri:0, instance:LearnMaven.LearnMTS.SelTest@2a3b5b47]" started-at="2022-08-03T17:31:11 IST" name="elementsUI" finished-at="2022-08-03T17:31:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elementsUI -->
+        <test-method signature="browserAutomation()[pri:0, instance:LearnMaven.LearnMTS.SelTest@2a3b5b47]" started-at="2022-08-03T17:31:11 IST" name="browserAutomation" finished-at="2022-08-03T17:31:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserAutomation -->
+        <test-method signature="tm1()[pri:0, instance:LearnMaven.LearnMTS.SelTest@2a3b5b47]" started-at="2022-08-03T17:31:11 IST" name="tm1" finished-at="2022-08-03T17:31:11 IST" depends-on-methods="LearnMaven.LearnMTS.SelTest.tm2" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tm1 -->
       </class> <!-- LearnMaven.LearnMTS.SelTest -->
       <class name="LearnMaven.LearnMTS.RestApiTest">
-        <test-method signature="deleteTwitter()[pri:0, instance:LearnMaven.LearnMTS.RestApiTest@351d00c0]" started-at="2022-07-26T17:22:00 IST" name="deleteTwitter" finished-at="2022-07-26T17:22:00 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteTwitter -->
-        <test-method signature="postFB()[pri:0, instance:LearnMaven.LearnMTS.RestApiTest@351d00c0]" started-at="2022-07-26T17:22:00 IST" name="postFB" finished-at="2022-07-26T17:22:00 IST" duration-ms="0" status="PASS">
+        <test-method signature="postFB()[pri:0, instance:LearnMaven.LearnMTS.RestApiTest@351d00c0]" started-at="2022-08-03T17:31:11 IST" name="postFB" finished-at="2022-08-03T17:31:11 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postFB -->
-        <test-method signature="postJira()[pri:0, instance:LearnMaven.LearnMTS.RestApiTest@351d00c0]" started-at="2022-07-26T17:22:00 IST" name="postJira" finished-at="2022-07-26T17:22:00 IST" duration-ms="0" status="PASS">
+        <test-method signature="deleteTwitter()[pri:0, instance:LearnMaven.LearnMTS.RestApiTest@351d00c0]" started-at="2022-08-03T17:31:11 IST" name="deleteTwitter" finished-at="2022-08-03T17:31:11 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- postJira -->
-        <test-method signature="postInsta()[pri:0, instance:LearnMaven.LearnMTS.RestApiTest@351d00c0]" started-at="2022-07-26T17:22:00 IST" name="postInsta" finished-at="2022-07-26T17:22:00 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- deleteTwitter -->
+        <test-method signature="postInsta()[pri:0, instance:LearnMaven.LearnMTS.RestApiTest@351d00c0]" started-at="2022-08-03T17:31:11 IST" name="postInsta" finished-at="2022-08-03T17:31:11 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postInsta -->
-        <test-method signature="postMeta()[pri:0, instance:LearnMaven.LearnMTS.RestApiTest@351d00c0]" started-at="2022-07-26T17:22:00 IST" name="postMeta" finished-at="2022-07-26T17:22:00 IST" duration-ms="1" status="PASS">
+        <test-method signature="postJira()[pri:0, instance:LearnMaven.LearnMTS.RestApiTest@351d00c0]" started-at="2022-08-03T17:31:11 IST" name="postJira" finished-at="2022-08-03T17:31:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postJira -->
+        <test-method signature="postMeta()[pri:0, instance:LearnMaven.LearnMTS.RestApiTest@351d00c0]" started-at="2022-08-03T17:31:11 IST" name="postMeta" finished-at="2022-08-03T17:31:11 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postMeta -->
       </class> <!-- LearnMaven.LearnMTS.RestApiTest -->
       <class name="LearnMaven.LearnMTS.ApiTest">
-        <test-method is-config="true" signature="m3()[pri:0, instance:LearnMaven.LearnMTS.ApiTest@38d8f54a]" started-at="2022-07-26T17:22:00 IST" name="m3" finished-at="2022-07-26T17:22:00 IST" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="m3()[pri:0, instance:LearnMaven.LearnMTS.ApiTest@38d8f54a]" started-at="2022-08-03T17:31:11 IST" name="m3" finished-at="2022-08-03T17:31:11 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m3 -->
-        <test-method is-config="true" signature="m1()[pri:0, instance:LearnMaven.LearnMTS.ApiTest@38d8f54a]" started-at="2022-07-26T17:22:00 IST" name="m1" finished-at="2022-07-26T17:22:00 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="m1()[pri:0, instance:LearnMaven.LearnMTS.ApiTest@38d8f54a]" started-at="2022-08-03T17:31:11 IST" name="m1" finished-at="2022-08-03T17:31:11 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m1 -->
-        <test-method signature="AndroidApp()[pri:0, instance:LearnMaven.LearnMTS.ApiTest@38d8f54a]" started-at="2022-07-26T17:22:00 IST" name="AndroidApp" finished-at="2022-07-26T17:22:00 IST" duration-ms="0" status="PASS">
+        <test-method signature="AndroidApp()[pri:0, instance:LearnMaven.LearnMTS.ApiTest@38d8f54a]" started-at="2022-08-03T17:31:11 IST" name="AndroidApp" finished-at="2022-08-03T17:31:11 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AndroidApp -->
-        <test-method is-config="true" signature="m2()[pri:0, instance:LearnMaven.LearnMTS.ApiTest@38d8f54a]" started-at="2022-07-26T17:22:00 IST" name="m2" finished-at="2022-07-26T17:22:00 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="m2()[pri:0, instance:LearnMaven.LearnMTS.ApiTest@38d8f54a]" started-at="2022-08-03T17:31:11 IST" name="m2" finished-at="2022-08-03T17:31:11 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m2 -->
-        <test-method is-config="true" signature="m4()[pri:0, instance:LearnMaven.LearnMTS.ApiTest@38d8f54a]" started-at="2022-07-26T17:22:00 IST" name="m4" finished-at="2022-07-26T17:22:00 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="m4()[pri:0, instance:LearnMaven.LearnMTS.ApiTest@38d8f54a]" started-at="2022-08-03T17:31:11 IST" name="m4" finished-at="2022-08-03T17:31:11 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m4 -->
       </class> <!-- LearnMaven.LearnMTS.ApiTest -->
       <class name="LearnMaven.LearnMTS.AnnotationsTest">
-        <test-method is-config="true" signature="bfc()[pri:0, instance:LearnMaven.LearnMTS.AnnotationsTest@49e53c76]" started-at="2022-07-26T17:22:00 IST" name="bfc" finished-at="2022-07-26T17:22:00 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="bfc()[pri:0, instance:LearnMaven.LearnMTS.AnnotationsTest@49e53c76]" started-at="2022-08-03T17:31:11 IST" name="bfc" finished-at="2022-08-03T17:31:11 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bfc -->
-        <test-method is-config="true" signature="bfm()[pri:0, instance:LearnMaven.LearnMTS.AnnotationsTest@49e53c76]" started-at="2022-07-26T17:22:00 IST" name="bfm" finished-at="2022-07-26T17:22:00 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="bfm()[pri:0, instance:LearnMaven.LearnMTS.AnnotationsTest@49e53c76]" started-at="2022-08-03T17:31:11 IST" name="bfm" finished-at="2022-08-03T17:31:11 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bfm -->
-        <test-method signature="deleteTwitter()[pri:0, instance:LearnMaven.LearnMTS.AnnotationsTest@49e53c76]" started-at="2022-07-26T17:22:00 IST" name="deleteTwitter" finished-at="2022-07-26T17:22:00 IST" duration-ms="1" status="PASS">
+        <test-method signature="deleteTwitter()[pri:0, instance:LearnMaven.LearnMTS.AnnotationsTest@49e53c76]" started-at="2022-08-03T17:31:11 IST" name="deleteTwitter" finished-at="2022-08-03T17:31:11 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteTwitter -->
-        <test-method is-config="true" signature="afm()[pri:0, instance:LearnMaven.LearnMTS.AnnotationsTest@49e53c76]" started-at="2022-07-26T17:22:00 IST" name="afm" finished-at="2022-07-26T17:22:00 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afm()[pri:0, instance:LearnMaven.LearnMTS.AnnotationsTest@49e53c76]" started-at="2022-08-03T17:31:11 IST" name="afm" finished-at="2022-08-03T17:31:11 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afm -->
-        <test-method is-config="true" signature="bfm()[pri:0, instance:LearnMaven.LearnMTS.AnnotationsTest@49e53c76]" started-at="2022-07-26T17:22:00 IST" name="bfm" finished-at="2022-07-26T17:22:00 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="bfm()[pri:0, instance:LearnMaven.LearnMTS.AnnotationsTest@49e53c76]" started-at="2022-08-03T17:31:11 IST" name="bfm" finished-at="2022-08-03T17:31:11 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bfm -->
-        <test-method signature="deleteFB()[pri:0, instance:LearnMaven.LearnMTS.AnnotationsTest@49e53c76]" started-at="2022-07-26T17:22:00 IST" name="deleteFB" finished-at="2022-07-26T17:22:00 IST" depends-on-methods="LearnMaven.LearnMTS.AnnotationsTest.deleteTwitter" duration-ms="2" status="PASS">
+        <test-method signature="deleteFB()[pri:0, instance:LearnMaven.LearnMTS.AnnotationsTest@49e53c76]" started-at="2022-08-03T17:31:11 IST" name="deleteFB" finished-at="2022-08-03T17:31:11 IST" depends-on-methods="LearnMaven.LearnMTS.AnnotationsTest.deleteTwitter" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteFB -->
-        <test-method is-config="true" signature="afm()[pri:0, instance:LearnMaven.LearnMTS.AnnotationsTest@49e53c76]" started-at="2022-07-26T17:22:00 IST" name="afm" finished-at="2022-07-26T17:22:00 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afm()[pri:0, instance:LearnMaven.LearnMTS.AnnotationsTest@49e53c76]" started-at="2022-08-03T17:31:11 IST" name="afm" finished-at="2022-08-03T17:31:11 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afm -->
-        <test-method is-config="true" signature="afc()[pri:0, instance:LearnMaven.LearnMTS.AnnotationsTest@49e53c76]" started-at="2022-07-26T17:22:00 IST" name="afc" finished-at="2022-07-26T17:22:00 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afc()[pri:0, instance:LearnMaven.LearnMTS.AnnotationsTest@49e53c76]" started-at="2022-08-03T17:31:11 IST" name="afc" finished-at="2022-08-03T17:31:11 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afc -->
